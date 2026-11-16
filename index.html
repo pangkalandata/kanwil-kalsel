@@ -1,108 +1,122 @@
 
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * {
+    box-sizing: border-box;
+  }
 
-  <!-- SEO TITLE -->
-  <title>Sistem Pangkalan Data Tim Kerja Lintas Instansi | Kanwil Kementerian Hukum Kalimantan Selatan</title>
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6fa;
+    color: #263445;
+  }
 
-  <!-- SEO DESCRIPTION -->
-  <meta name="description" content="Sistem Pangkalan Data Tim Kerja Lintas Instansi Kantor Wilayah Kementerian Hukum Kalimantan Selatan merupakan platform digital untuk pengelolaan data pemerintah daerah, data pegawai, tim kerja, serta informasi kegiatan dalam mendukung koordinasi dan pelaksanaan tugas lintas instansi.">
+  .seo-content {
+    padding: 24px 5%;
+    background: #ffffff;
+    border-bottom: 3px solid #c9a44c;
+  }
 
-  <!-- SEO KEYWORDS -->
-  <meta name="keywords" content="Sistem Pangkalan Data, Tim Kerja Lintas Instansi, Pangkalan Data Kanwil Kemenkum Kalsel, Data Pemerintah Daerah, Data Pegawai, Kegiatan Kemenkum Kalsel, Kanwil Kementerian Hukum Kalimantan Selatan">
+  .seo-content h1 {
+    color: #10294b;
+    font-size: 24px;
+    margin: 0 0 12px;
+  }
 
-  <meta name="author" content="Kantor Wilayah Kementerian Hukum Kalimantan Selatan">
+  .seo-content h2 {
+    color: #10294b;
+    font-size: 19px;
+    margin: 18px 0 8px;
+  }
 
-  <!-- GOOGLE INDEXING -->
-  <meta name="robots" content="index, follow">
-  <meta name="googlebot" content="index, follow">
+  .seo-content p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 8px 0;
+  }
 
-  <!-- CANONICAL URL -->
-  <link rel="canonical" href="https://pangkalandata.github.io/kanwil-kalsel/">
+  .app-container {
+    width: 100%;
+    height: 85vh;
+    min-height: 600px;
+    background: #ffffff;
+  }
 
-  <!-- FAVICON -->
-  <link
-    rel="icon"
-    type="image/png"
-    href="https://kalsel.kemenkum.go.id/images/logo/logokumham.png"
-  >
+  iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
 
-  <!-- OPEN GRAPH -->
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="id_ID">
-  <meta property="og:title" content="Sistem Pangkalan Data Tim Kerja Lintas Instansi | Kanwil Kemenkum Kalsel">
-  <meta property="og:description" content="Platform digital pengelolaan data pemerintah daerah, pegawai, tim kerja, dan kegiatan pada Kantor Wilayah Kementerian Hukum Kalimantan Selatan.">
-  <meta property="og:url" content="https://pangkalandata.github.io/kanwil-kalsel/">
-  <meta property="og:site_name" content="Pangkalan Data Kanwil Kemenkum Kalsel">
+  @media (max-width: 600px) {
+    .seo-content {
+      padding: 18px;
+    }
 
-  <!-- THEME COLOR -->
-  <meta name="theme-color" content="#10294b">
+    .seo-content h1 {
+      font-size: 20px;
+    }
 
-  <!-- STRUCTURED DATA -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Sistem Pangkalan Data Tim Kerja Lintas Instansi",
-    "alternateName": "Pangkalan Data Kanwil Kemenkum Kalimantan Selatan",
-    "url": "https://pangkalandata.github.io/kanwil-kalsel/",
-    "description": "Platform digital untuk pengelolaan data pemerintah daerah, pegawai, tim kerja, dan kegiatan pada Kantor Wilayah Kementerian Hukum Kalimantan Selatan.",
-    "inLanguage": "id-ID",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Kantor Wilayah Kementerian Hukum Kalimantan Selatan",
-      "url": "https://kalsel.kemenkum.go.id/"
+    .app-container {
+      height: 80vh;
+      min-height: 550px;
     }
   }
-  </script>
-
-  <!-- CSS -->
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-
-    iframe {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-
-    #fsBtn {
-      position: fixed;
-      bottom: 16px;
-      right: 16px;
-      z-index: 999;
-      padding: 8px 14px;
-      border: none;
-      border-radius: 6px;
-      background: #1a73e8;
-      color: #fff;
-      cursor: pointer;
-      font-size: 14px;
-    }
-  </style>
+</style>
 </head>
 
 <body>
 
-  <!-- APLIKASI PANGKALAN DATA -->
-  <iframe
-    src="https://script.google.com/macros/s/AKfycbzRNKQgE5b15f8LBajKzXcIRYBlIfIxUe6V3emKlUUdjqWjlxJvIbdgl0-0ZmDFGeck/exec"
-    title="Sistem Pangkalan Data Tim Kerja Lintas Instansi Kanwil Kementerian Hukum Kalimantan Selatan"
-    loading="eager"
-    allowfullscreen>
-  </iframe>
+  <!-- KONTEN YANG DAPAT DIBACA GOOGLE -->
+  <main class="seo-content">
+
+    <h1>Sistem Pangkalan Data Kantor Wilayah Kementerian Hukum Kalimantan Selatan</h1>
+
+    <p>
+      Sistem Pangkalan Data Tim Kerja Lintas Instansi merupakan
+      platform digital yang dikembangkan oleh Kantor Wilayah
+      Kementerian Hukum Kalimantan Selatan untuk mendukung
+      pengelolaan informasi dan data secara terintegrasi.
+    </p>
+
+    <h2>Pengelolaan Data Pemerintah Daerah dan Pegawai</h2>
+
+    <p>
+      Sistem ini menyediakan informasi terkait pemerintah
+      daerah kabupaten dan kota, data pegawai, serta tim kerja
+      lintas instansi di wilayah Kalimantan Selatan.
+    </p>
+
+    <h2>Informasi Kegiatan dan Tim Kerja Lintas Instansi</h2>
+
+    <p>
+      Melalui sistem pangkalan data ini, pengelolaan informasi
+      kegiatan dan koordinasi tim kerja lintas instansi
+      diharapkan dapat dilaksanakan secara lebih efektif,
+      terstruktur, dan mudah diakses.
+    </p>
+
+    <p>
+      Platform ini merupakan bagian dari pemanfaatan teknologi
+      informasi untuk mendukung pelaksanaan tugas dan fungsi
+      Kantor Wilayah Kementerian Hukum Kalimantan Selatan.
+    </p>
+
+  </main>
+
+  <!-- APLIKASI GOOGLE APPS SCRIPT -->
+  <section class="app-container">
+    <iframe
+      src="https://script.google.com/macros/s/AKfycbzRNKQgE5b15f8LBajKzXcIRYBlIfIxUe6V3emKlUUdjqWjlxJvIbdgl0-0ZmDFGeck/exec"
+      title="Sistem Pangkalan Data Tim Kerja Lintas Instansi Kanwil Kementerian Hukum Kalimantan Selatan"
+      loading="eager"
+      allowfullscreen>
+    </iframe>
+  </section>
 
 </body>
 </html>
